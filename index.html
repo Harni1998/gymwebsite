@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Round Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+<style>
+/* css reset */ 
+body{
+    margin: 0px;
+    padding:0px;
+   background:url("./images/nofinal.jpg");
+   font-family: 'Baloo Bhaijaan 2', cursive;
+   color:#ffff;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+
+}
+.navbar{
+    display: inline-block;
+ 
+}
+.navbar li{
+    display: inline-block;
+
+}
+.navbar li a{
+    color: #ffff;
+    text-decoration: none;
+    padding: 22px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+
+.left{
+display:inline-block;
+
+position: absolute;
+left :34px;
+top:40px;
+
+
+
+
+}
+
+.left img{
+    width:40px;
+    filter:invert(100%);
+    margin:0px 30px;
+}
+.left div{
+    color: #ffff;
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: 600;
+
+}
+.mid{
+
+display: block;
+margin:  20px auto;
+width: 44%;}
+
+
+
+.right{
+display:inline-block;
+
+position: absolute;
+right :34px;
+top:40px;}
+.btn{
+    color: #ffff;
+    background-color: black;
+    margin:8px; padding: 10px;
+    border:2px solid grey;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+    
+}
+.btn:hover{
+    background-color: grey;
+}
+
+.container{
+    border: 2px solid white;
+    margin:80px 0px 0px 80px;
+     width:33%;
+    border-radius: 10px; 
+    padding:10px;
+    text-align: center;
+
+   
+
+}
+.container h1{
+    font-weight: bold;
+}
+.form-group input{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    width: 44%;
+    font-size: medium;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container .btn{
+ width:33%; padding: 10px;
+}
+container .btn:hover{
+background-color: gray;
+border: 2px solid black;
+font-family: 'Baloo Bhaijaan 2', cursive;
+}
+</style>
+<!-- html -->
+<body>
+   <header class="header">
+
+        <div class="left">
+            <!-- left for logo -->
+            <img src="./images/dumbell.png" alt="dumbel" srcset="">
+            <div>All Round Fitness</div>
+            
+
+        </div>
+        <div class="mid">
+            <!-- mid for nav bar -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us </a></li>
+                <li><a href="#">Fitness Calcultor</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <!-- right for buttons -->
+       <button class="btn">Call Us</button>
+       <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+ <h1>Health is Wealth</h1>
+ <form action="noaction.php">
+     <div class="form-group">
+         <input type="text" name="" placeholder="Enter Your Name">
+     </div>
+     <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Phone Number">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Locality">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Gender">
+    </div>
+    
+   <button class="btn">Submit</button>
+    </div>
+</body>
+</html>
